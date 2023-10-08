@@ -1,0 +1,258 @@
+/*body {
+    background-color: #66347F;
+    background: linear-gradient(to bottom right, #3A1078, #E384FF);
+    font-family:"Montserrat";
+    animation: gradient 20s ease infinite;
+
+}*/
+body {
+	background: linear-gradient(-45deg, #418aea42, #181367, #c323d5, #5473d3);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+
+
+.navbar{
+    padding:0 0 4.5rem;
+}
+.navbar-brand{
+    font-family:"Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding:0px 28px;
+}
+#title {
+    padding-left: 3%;
+    padding-right: 3%;
+   
+    padding-bottom: 5%;
+
+}
+
+.caption{
+    text-align: center;
+}
+.btn {
+    margin-top: 12px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+@media screen and (max-width: 600px) {
+    button {
+        margin-top: 12px;
+        margin-left: 5px;
+        margin-right: 10px;
+
+    }
+}
+.button2 {
+    margin-top: 12px;
+    margin-left: 10px;
+
+}
+@media screen and (min-width: 1200px) {
+    button {
+        margin-top: 12px;
+        margin-left: 10px;
+
+    }
+}
+
+.title-img {
+    position:relative;
+}
+
+
+button {
+    background-color: #333;
+    color: #fff;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+button:hover {
+    transform: translateX(5px);
+  }
+#features{
+    padding:7% 15%;
+    background-color: #fff;
+    position:relative;
+    z-index:1;
+
+}
+
+.feature-box{
+    text-align: center;
+    padding:5px;
+}
+
+h3{
+    font-family:"Montserrat-Bold";
+    
+}
+
+h2{
+    font-family: "Brush Script MT", cursive, sans-serif;
+}
+p{
+    color: #4D455D;
+}
+.icon1{
+    color:#ef8172;
+    padding-bottom: 15px;
+}
+.icon1:hover{
+    color:#ff4c68;
+}
+#features{
+    padding:100px;
+    text-align: center;
+}
+.feature-column{
+    padding: 3% 2%;
+    
+}
+.feat {
+    justify-content: center;
+}
+
+
+#contact {
+    background-color: black;
+}
+
+.card-body {
+    background-color: #E5D1FA;
+    background: linear-gradient(to bottom right, #E5D1FA, white);
+}
+
+.card:hover{
+    transform: scale(1.1);
+
+}
+.card{
+    transition: transform .5s;
+}
+
+
+.ending {
+    color: white;
+}
+
+
+#description {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ffffff;
+  border-radius: 15px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #ffffff;
+  resize: vertical;
+  background-color: transparent;
+}
+
+#description:hover {
+  border-color: #aaa;
+}
+
+#description:focus {
+  outline: none;
+  border-color: #ffffff;
+  box-shadow: 0px 0px 5px rgba(77, 166, 255, 0.5);
+}
+
+img {
+  transition: transform 0.3s ease-in-out;
+  width: 50%; /* set the width to 50% of its original size */
+  height: auto; /* maintain the aspect ratio */
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+#textbox1{
+    opacity: 0;
+}
+
+
+#textbox2{
+    opacity: 0;
+}
+
+.captions {
+    background-color: transparent;
+    
+    /* Set the border to white, rounded edges, and increase the thickness */
+    border: 3px solid white;
+    border-radius: 10px;
+    
+    /* Set the width and height */
+    width: 800px;
+    height: 50px;
+    
+    /* Add space between the textboxes */
+    margin-bottom: 20px;
+    
+    /* Center the text */
+    text-align: center;
+    
+    /* Add transition when hovered */
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Change the position of the textbox when hovered */
+  .captions:hover {
+    transform: translateX(10px);
+  }
+
+  .captions:nth-child(even) {
+    margin-left: 0;
+  }
+  
+  .captions:nth-child(odd) {
+    margin-right: 0;
+  }
+
+  textarea::placeholder {
+    color: rgb(255, 255, 255); /* Change the color to your desired value */
+  }
+
+#main-head{
+    font-family: "Baskerville", serif;
+}
+
+h1 {
+    background-color: #333; /* Set the background color to dark gray */
+    color: #fff; /* Set the text color to white */
+    padding: 20px; /* Add some padding to the heading */
+  }
+
+#main-head {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+
+    font-size: 42px;
+    font-weight: bold;
+    line-height: 1.2;
+    font-family: "Baskerville", serif;
+  }
